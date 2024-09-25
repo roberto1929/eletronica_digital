@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "full_fifo",
+					"strict" : false
+				},
+				{
+					"name" : "empty_fifo",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[8]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[9]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[10]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[12]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[13]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[14]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out_fifo[15]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_fifo",
+					"strict" : false
+				},
+				{
+					"name" : "clk_fifo",
+					"strict" : false
+				},
+				{
+					"name" : "reset_fifo",
+					"strict" : false
+				},
+				{
+					"name" : "rd_fifo",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[8]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[9]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[10]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[12]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[13]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[14]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in_fifo[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

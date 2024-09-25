@@ -1,0 +1,23 @@
+|Arbitrary_Seq_Counter
+CLK => index[0].CLK
+CLK => index[1].CLK
+CLK => index[2].CLK
+CLK => index[3].CLK
+CLK => index[4].CLK
+RESET => index[0].ACLR
+RESET => index[1].ACLR
+RESET => index[2].ACLR
+RESET => index[3].ACLR
+RESET => index[4].ACLR
+ENABLE => index[0].ENA
+ENABLE => index[4].ENA
+ENABLE => index[3].ENA
+ENABLE => index[2].ENA
+ENABLE => index[1].ENA
+COUNT[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+COUNT[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+COUNT[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+COUNT[3] <= index[3].DB_MAX_OUTPUT_PORT_TYPE
+COUNT[4] <= index[4].DB_MAX_OUTPUT_PORT_TYPE
+
+

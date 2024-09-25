@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LFSR_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LFSR_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LFSR_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LFSR_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LFSR_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

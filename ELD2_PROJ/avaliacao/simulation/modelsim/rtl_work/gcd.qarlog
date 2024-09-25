@@ -1,0 +1,15 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD2_PROJ/avaliacao/simulation/modelsim/rtl_work/gcd.qarlog
+
+Archive:	/home/roberto.se/ELD2_PROJ/avaliacao/simulation/modelsim/rtl_work/gcd.qar
+Date:		Fri Aug 23 11:34:23 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD2_PROJ/avaliacao/gcd.qpf
+/home/roberto.se/ELD2_PROJ/avaliacao/gcd.qsf
+/home/roberto.se/ELD2_PROJ/avaliacao/gcd.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

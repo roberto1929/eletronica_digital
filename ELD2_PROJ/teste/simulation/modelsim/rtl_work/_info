@@ -1,0 +1,65 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD2_PROJ/teste/simulation/modelsim
+Eteste
+Z1 w1708437102
+!i122 0
+R0
+Z2 8/home/roberto.se/ELD2_PROJ/teste/teste.vhd
+Z3 F/home/roberto.se/ELD2_PROJ/teste/teste.vhd
+l0
+L1 1
+VMlY1P?Uj161@kAUZDO8GX1
+!s100 Ge=JU=gP6XU6Nb;GHLg>J2
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1708437132
+!i10b 1
+Z6 !s108 1708437132.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/teste/teste.vhd|
+!s107 /home/roberto.se/ELD2_PROJ/teste/teste.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Aifsc_v2
+Z10 DEx4 work 5 teste 0 22 MlY1P?Uj161@kAUZDO8GX1
+!i122 0
+l16
+L15 6
+Vni?GmXEGNS0R?IWQUcblM3
+!s100 m`Nj?zaz^ZiKb5OCGAfz`1
+R4
+31
+R5
+!i10b 1
+R6
+R7
+Z11 !s107 /home/roberto.se/ELD2_PROJ/teste/teste.vhd|
+!i113 1
+R8
+R9
+Aifsc_v1
+R10
+!i122 0
+l9
+L8 6
+V6]lJj9SaMIol_Fl8MN1dL3
+!s100 bdKhFLRmSE8<Cm5eFD2Uc2
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R11
+!i113 1
+R8
+R9

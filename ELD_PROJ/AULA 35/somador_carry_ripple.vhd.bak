@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity somador_carry_ripple is
+	generic
+	(N	: natural  :=	4;);
+
+	port
+	(
+		a,b : in  std_logic_vector(N-1 downto 0);
+		cin : in  std_logic ;
+		cout : out std_logic;
+		s : out std_logic_vector(N-1 downto 0);
+	);
+end entity;
+
+architecture ifsc_v1 of somador_carry_ripple is
+
+begin
+
+	
+
+end architecture;

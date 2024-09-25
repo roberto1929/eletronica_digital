@@ -1,0 +1,48 @@
+vlib rtl_work
+vmap work rtl_work
+vcom -93 -work work {/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd}
+vsim work.cfg_ifsc
+add wave -position end  sim:/mux4x1/X
+add wave -position end  sim:/mux4x1/Sel
+add wave -position end  sim:/mux4x1/Y
+force -freeze sim:/mux4x1/Sel 10 0
+run
+force -freeze sim:/mux4x1/Sel 11 0
+run
+force -freeze sim:/mux4x1/Sel 01 0
+run
+force -freeze sim:/mux4x1/X 1111 0
+run
+run
+force -freeze sim:/mux4x1/X 1000 0
+run
+run
+run
+run
+force -freeze sim:/mux4x1/X 1010 0
+run
+run
+run
+force -freeze sim:/mux4x1/X 1001 0
+run
+run
+run
+force -freeze sim:/mux4x1/Sel 10 0
+run
+run
+force -freeze sim:/mux4x1/X 1011 0
+run
+run
+run
+force -freeze sim:/mux4x1/X 1 0, 0 {50 ps} -r 100
+# Value length (1) does not equal array index length (4).
+# ** UI-Msg: (vsim-4011) Invalid force value: 1 0, 0 {50 ps}.
+# 
+force -freeze sim:/mux4x1/Sel 1 0, 1 {5 ps} -r 10
+# Value length (1) does not equal array index length (2).
+# ** UI-Msg: (vsim-4011) Invalid force value: 1 0, 1 {5 ps}.
+# 
+run
+run
+
+

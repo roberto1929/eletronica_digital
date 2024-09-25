@@ -1,0 +1,23 @@
+|Ring_Counter_5bit
+CLK => ring_count[0].CLK
+CLK => ring_count[1].CLK
+CLK => ring_count[2].CLK
+CLK => ring_count[3].CLK
+CLK => ring_count[4].CLK
+RESET => ring_count[0].PRESET
+RESET => ring_count[1].ACLR
+RESET => ring_count[2].ACLR
+RESET => ring_count[3].ACLR
+RESET => ring_count[4].ACLR
+ENABLE => ring_count[4].ENA
+ENABLE => ring_count[3].ENA
+ENABLE => ring_count[2].ENA
+ENABLE => ring_count[1].ENA
+ENABLE => ring_count[0].ENA
+RING_COUNT_1[0] <= ring_count[0].DB_MAX_OUTPUT_PORT_TYPE
+RING_COUNT_1[1] <= ring_count[1].DB_MAX_OUTPUT_PORT_TYPE
+RING_COUNT_1[2] <= ring_count[2].DB_MAX_OUTPUT_PORT_TYPE
+RING_COUNT_1[3] <= ring_count[3].DB_MAX_OUTPUT_PORT_TYPE
+RING_COUNT_1[4] <= ring_count[4].DB_MAX_OUTPUT_PORT_TYPE
+
+

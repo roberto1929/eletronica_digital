@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD_PROJ/AULA 35/somador_carry_ripple.qarlog
+
+Archive:	/home/roberto.se/ELD_PROJ/AULA 35/somador_carry_ripple.qar
+Date:		Thu Nov 30 09:17:32 2023
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD_PROJ/AULA 35/simulation/modelsim/tb_scr.do
+/home/roberto.se/ELD_PROJ/AULA 35/simulation/modelsim/wave.do
+/home/roberto.se/ELD_PROJ/AULA 35/somador_carry_ripple.qpf
+/home/roberto.se/ELD_PROJ/AULA 35/somador_carry_ripple.qsf
+/home/roberto.se/ELD_PROJ/AULA 35/somador_carry_ripple.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RING_COUNT_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RING_COUNT_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RING_COUNT_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RING_COUNT_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RING_COUNT_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

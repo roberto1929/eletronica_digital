@@ -1,0 +1,12 @@
+library std;
+use std.standard.all;
+
+entity nand_gate is
+	port (a, b, c: in bit; z,y: out bit);
+end entity;
+
+architecture nome_arch of nand_gate is
+begin
+	z <= ((not a) and b and c) or (not c);
+	y <= (a and b) or (a and (not c));  
+end architecture;

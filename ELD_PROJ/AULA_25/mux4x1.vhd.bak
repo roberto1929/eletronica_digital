@@ -1,0 +1,22 @@
+entity mux4x1 is
+	port
+	(
+		-- Input ports
+		X: in  bit_vector (3 downto 0);
+                Sel : in bit_vector (1 downto 0);
+		-- Output ports
+		Y : out bit
+	);
+end entity;
+
+-- Implementação com lógica pura
+architecture v_logica_pura of mux4x1 is
+
+begin
+ Y <= X(0) when Sel = "00" else
+		X(1) when Sel = "01" else
+      X(2) when Sel = "10" else
+		X(33) when Sel = "11" else
+		...
+		
+end architecture;

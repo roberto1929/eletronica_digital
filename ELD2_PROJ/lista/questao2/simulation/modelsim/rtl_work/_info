@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD2_PROJ/lista/questao2/simulation/modelsim
+Elatch_d
+Z1 w1722273538
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/roberto.se/ELD2_PROJ/lista/questao2/latch_d.vhd
+Z5 F/home/roberto.se/ELD2_PROJ/lista/questao2/latch_d.vhd
+l0
+L4 1
+VGeDb0nnYVU:9FfYJF2NXU0
+!s100 JIkb41Eg;=DKf@:<BINFz0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1722273563
+!i10b 1
+Z8 !s108 1722273563.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/lista/questao2/latch_d.vhd|
+!s107 /home/roberto.se/ELD2_PROJ/lista/questao2/latch_d.vhd|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Aifsc_v1
+R2
+R3
+DEx4 work 7 latch_d 0 22 GeDb0nnYVU:9FfYJF2NXU0
+!i122 0
+l13
+L12 13
+Vf7[P_>fI[G=aR=K`1;C>H2
+!s100 JF2M_gVg?Wo?3Z1B76zVE2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 /home/roberto.se/ELD2_PROJ/lista/questao2/latch_d.vhd|
+!i113 1
+R10
+R11

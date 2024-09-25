@@ -1,0 +1,27 @@
+|Bin_to_Gray
+CLK => gray_reg[0].CLK
+CLK => gray_reg[1].CLK
+CLK => gray_reg[2].CLK
+CLK => gray_reg[3].CLK
+CLK => bin_reg[0].CLK
+CLK => bin_reg[1].CLK
+CLK => bin_reg[2].CLK
+CLK => bin_reg[3].CLK
+RESET => gray_reg[0].ACLR
+RESET => gray_reg[1].ACLR
+RESET => gray_reg[2].ACLR
+RESET => gray_reg[3].ACLR
+RESET => bin_reg[0].ACLR
+RESET => bin_reg[1].ACLR
+RESET => bin_reg[2].ACLR
+RESET => bin_reg[3].ACLR
+BIN[0] => bin_reg[0].DATAIN
+BIN[1] => bin_reg[1].DATAIN
+BIN[2] => bin_reg[2].DATAIN
+BIN[3] => bin_reg[3].DATAIN
+GRAY[0] <= gray_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+GRAY[1] <= gray_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+GRAY[2] <= gray_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+GRAY[3] <= gray_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

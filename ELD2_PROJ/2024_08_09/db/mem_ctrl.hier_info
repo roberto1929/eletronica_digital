@@ -1,0 +1,17 @@
+|mem_ctrl
+clk => state_reg~1.DATAIN
+reset => state_reg~3.DATAIN
+mem => state_next.OUTPUTSELECT
+mem => state_next.OUTPUTSELECT
+mem => process_3.IN0
+mem => Selector0.IN2
+rw => state_next.DATAB
+rw => process_3.IN1
+rw => state_next.DATAB
+burst => state_next.read2.DATAB
+burst => Selector0.IN3
+oe <= oe.DB_MAX_OUTPUT_PORT_TYPE
+we <= we.DB_MAX_OUTPUT_PORT_TYPE
+we_me <= we_me.DB_MAX_OUTPUT_PORT_TYPE
+
+

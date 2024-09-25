@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dezena_bdc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena_bdc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena_bdc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena_bdc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "max_du_reached",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

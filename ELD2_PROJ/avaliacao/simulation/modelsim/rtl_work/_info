@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD2_PROJ/avaliacao/simulation/modelsim
+Egcd
+Z1 w1724422354
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8/home/roberto.se/ELD2_PROJ/avaliacao/gcd.vhd
+Z6 F/home/roberto.se/ELD2_PROJ/avaliacao/gcd.vhd
+l0
+L7 1
+V]l9ZgTA9zfTZoljoJ2Hha3
+!s100 4hKFOSh;FT`1P6n4eVGNK2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1724422467
+!i10b 1
+Z9 !s108 1724422467.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/avaliacao/gcd.vhd|
+Z11 !s107 /home/roberto.se/ELD2_PROJ/avaliacao/gcd.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Afastest_arch
+R2
+R3
+R4
+Z14 DEx4 work 3 gcd 0 22 ]l9ZgTA9zfTZoljoJ2Hha3
+!i122 1
+l165
+Z15 L160 143
+Z16 Vh[3Z:;bPfm6b0Lh5W>Rm;0
+Z17 !s100 020EK:z`6YgHlTAUF7bDT1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Afast_arch
+R2
+R3
+R4
+R14
+!i122 1
+l78
+Z18 L73 82
+Z19 VRY<VEOC35l_akMQd_]]bY2
+Z20 !s100 ^fI1kP_0j2=[YCP95aMn00
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aslow_arch
+R2
+R3
+R4
+R14
+!i122 1
+l21
+Z21 L17 51
+Z22 V3daZ@nm<c@PD?4nfB3O_>3
+Z23 !s100 T8Oa4MIZJ?ioe?f`a8RhH3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Cifsc
+egcd
+afast_arch
+DAx4 work 3 gcd 9 fast_arch 22 RY<VEOC35l_akMQd_]]bY2
+R2
+R3
+R4
+R14
+!i122 1
+R1
+R0
+R5
+R6
+l0
+L304 1
+VKWCh8YII:<;;MzXEgGEmb0
+!s100 n78:Nn:KNbf_:6VbhY=HO1
+R7
+31
+R8
+!i10b 0
+R9
+R10
+R11
+!i113 1
+R12
+R13

@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD_PROJ/AULA 31/simulation/modelsim
+Edemux_4_enable
+Z1 w1700572146
+!i122 1
+R0
+Z2 8/home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.vhd
+Z3 F/home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.vhd
+l0
+L1 1
+VNKQlS0L?KL]oWIkQ8a7AI0
+!s100 8ndfNW1VL3Rc[S?0j^A^Z2
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1700574916
+!i10b 1
+Z6 !s108 1700574915.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.vhd|
+Z8 !s107 /home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.vhd|
+!i113 1
+Z9 o-93 -work work
+Z10 tExplicit 1 CvgOpt 0
+Aifsc_v1
+Z11 DEx4 work 14 demux_4_enable 0 22 NKQlS0L?KL]oWIkQ8a7AI0
+!i122 1
+l11
+L9 8
+Z12 V:j;aKA[Bb]`8J;_L:ZL^C1
+Z13 !s100 U[3EeEB6oJWiQ6YS_009Z0
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10

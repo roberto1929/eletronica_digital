@@ -1,0 +1,24 @@
+# do nand_gate_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+vlib rtl_work
+vmap work rtl_work
+vcom -93 -work work {/home/roberto.se/ELD2_PROJ/ATIVIDADES/nand_gate/nand_gate.vhd}
+vsim work.nand_gate(ifsc_v1)
+add wave -position end  sim:/nand_gate/a
+add wave -position end  sim:/nand_gate/b
+add wave -position end  sim:/nand_gate/x
+run 1min
+force -freeze sim:/nand_gate/a 1 0
+run 1min
+force -freeze sim:/nand_gate/b 1 0
+run 1min
+force -freeze sim:/nand_gate/b 0 0
+force -freeze sim:/nand_gate/a 0 0
+run 4min
+run
+force -freeze sim:/nand_gate/a 0 1
+run 1min
+
+

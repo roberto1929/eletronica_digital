@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD_PROJ/AULA_25/simulation/modelsim
+Emux4x1
+Z1 w1698757731
+!i122 0
+R0
+Z2 8/home/roberto.se/ELD_PROJ/AULA_25/mux4x1.vhd
+Z3 F/home/roberto.se/ELD_PROJ/AULA_25/mux4x1.vhd
+l0
+L1 1
+VM5R[Q[Fbm]40lF`miT3;a3
+!s100 n11RR2kl:k;KkDf`jmXa_3
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1698757934
+!i10b 1
+Z6 !s108 1698757934.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD_PROJ/AULA_25/mux4x1.vhd|
+!s107 /home/roberto.se/ELD_PROJ/AULA_25/mux4x1.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Av_with_select
+Z10 DEx4 work 6 mux4x1 0 22 M5R[Q[Fbm]40lF`miT3;a3
+!i122 0
+l36
+L34 10
+VKD3^gk_`2eBg]OF0]LnaP1
+!s100 g7:k@llBIRn`YHQhDTT6a0
+R4
+31
+R5
+!i10b 1
+R6
+R7
+Z11 !s107 /home/roberto.se/ELD_PROJ/AULA_25/mux4x1.vhd|
+!i113 1
+R8
+R9
+Av_when_else
+R10
+!i122 0
+l24
+L22 9
+VYdLY]Jkizf<:CdA;oN19W0
+!s100 X5818LzH2YJ2Dz`]VD7L`1
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R11
+!i113 1
+R8
+R9
+Av_logica_pura
+R10
+!i122 0
+l15
+L13 8
+VZMek0<Md8`LSS9gzcVV8H3
+!s100 o;o284KYDB`Df4]N>P2RY0
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R11
+!i113 1
+R8
+R9

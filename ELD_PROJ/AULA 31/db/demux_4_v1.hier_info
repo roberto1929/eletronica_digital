@@ -1,0 +1,23 @@
+|demux_4_enable
+A[0] => Equal0.IN1
+A[0] => Equal1.IN1
+A[0] => Equal2.IN0
+A[0] => Equal3.IN1
+A[1] => Equal0.IN0
+A[1] => Equal1.IN0
+A[1] => Equal2.IN1
+A[1] => Equal3.IN0
+ena => y.IN1
+ena => y.IN1
+ena => y.IN1
+ena => y.IN1
+x => y.DATAB
+x => y.DATAB
+x => y.DATAB
+x => y.DATAB
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

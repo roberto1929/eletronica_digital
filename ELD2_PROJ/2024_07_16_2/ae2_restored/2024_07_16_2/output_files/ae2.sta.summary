@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'clk_fifo'
+Slack : -2.157
+TNS   : -489.946
+
+Type  : Slow 1200mV 100C Model Hold 'clk_fifo'
+Slack : 0.636
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'clk_fifo'
+Slack : -3.000
+TNS   : -344.810
+
+Type  : Slow 1200mV -40C Model Setup 'clk_fifo'
+Slack : -1.854
+TNS   : -411.130
+
+Type  : Slow 1200mV -40C Model Hold 'clk_fifo'
+Slack : 0.562
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk_fifo'
+Slack : -3.000
+TNS   : -344.810
+
+Type  : Fast 1200mV -40C Model Setup 'clk_fifo'
+Slack : -0.446
+TNS   : -80.964
+
+Type  : Fast 1200mV -40C Model Hold 'clk_fifo'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk_fifo'
+Slack : -3.000
+TNS   : -288.221
+
+------------------------------------------------------------

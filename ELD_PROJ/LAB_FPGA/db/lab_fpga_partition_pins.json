@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_A",
+					"strict" : false
+				},
+				{
+					"name" : "led_B",
+					"strict" : false
+				},
+				{
+					"name" : "led_C",
+					"strict" : false
+				},
+				{
+					"name" : "led_D",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_a",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_b",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_c",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_d",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_e",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_f",
+					"strict" : false
+				},
+				{
+					"name" : "ssd_g",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_A",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_B",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_C",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_D",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

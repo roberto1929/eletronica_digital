@@ -1,0 +1,481 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition"
+
+// DATE "04/29/2024 15:24:29"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module lab_fpga (
+	bcd_A,
+	bcd_B,
+	bcd_C,
+	bcd_D,
+	led_A,
+	led_B,
+	led_C,
+	led_D,
+	ssd_a,
+	ssd_b,
+	ssd_c,
+	ssd_d,
+	ssd_e,
+	ssd_f,
+	ssd_g);
+input 	bcd_A;
+input 	bcd_B;
+input 	bcd_C;
+input 	bcd_D;
+output 	led_A;
+output 	led_B;
+output 	led_C;
+output 	led_D;
+output 	ssd_a;
+output 	ssd_b;
+output 	ssd_c;
+output 	ssd_d;
+output 	ssd_e;
+output 	ssd_f;
+output 	ssd_g;
+
+// Design Ports Information
+// led_A	=>  Location: PIN_F21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// led_B	=>  Location: PIN_E19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// led_C	=>  Location: PIN_F19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// led_D	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_a	=>  Location: PIN_G18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_b	=>  Location: PIN_F22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_c	=>  Location: PIN_E17,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_d	=>  Location: PIN_L26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_e	=>  Location: PIN_L25,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_f	=>  Location: PIN_J22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ssd_g	=>  Location: PIN_H22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_A	=>  Location: PIN_AD27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_B	=>  Location: PIN_AC27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_C	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// bcd_D	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \led_A~output_o ;
+wire \led_B~output_o ;
+wire \led_C~output_o ;
+wire \led_D~output_o ;
+wire \ssd_a~output_o ;
+wire \ssd_b~output_o ;
+wire \ssd_c~output_o ;
+wire \ssd_d~output_o ;
+wire \ssd_e~output_o ;
+wire \ssd_f~output_o ;
+wire \ssd_g~output_o ;
+wire \bcd_A~input_o ;
+wire \bcd_B~input_o ;
+wire \bcd_C~input_o ;
+wire \bcd_D~input_o ;
+wire \ssd_a~0_combout ;
+wire \ssd_b~0_combout ;
+wire \ssd_c~0_combout ;
+wire \ssd_d~0_combout ;
+wire \ssd_e~0_combout ;
+wire \ssd_f~0_combout ;
+wire \ssd_g~0_combout ;
+
+
+hard_block auto_generated_inst(
+	.devpor(devpor),
+	.devclrn(devclrn),
+	.devoe(devoe));
+
+// Location: IOOBUF_X107_Y73_N16
+cycloneive_io_obuf \led_A~output (
+	.i(\bcd_A~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\led_A~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \led_A~output .bus_hold = "false";
+defparam \led_A~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N9
+cycloneive_io_obuf \led_B~output (
+	.i(\bcd_B~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\led_B~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \led_B~output .bus_hold = "false";
+defparam \led_B~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N2
+cycloneive_io_obuf \led_C~output (
+	.i(\bcd_C~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\led_C~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \led_C~output .bus_hold = "false";
+defparam \led_C~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X69_Y73_N16
+cycloneive_io_obuf \led_D~output (
+	.i(\bcd_D~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\led_D~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \led_D~output .bus_hold = "false";
+defparam \led_D~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X69_Y73_N23
+cycloneive_io_obuf \ssd_a~output (
+	.i(!\ssd_a~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_a~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_a~output .bus_hold = "false";
+defparam \ssd_a~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X107_Y73_N23
+cycloneive_io_obuf \ssd_b~output (
+	.i(!\ssd_b~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_b~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_b~output .bus_hold = "false";
+defparam \ssd_b~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X67_Y73_N23
+cycloneive_io_obuf \ssd_c~output (
+	.i(\ssd_c~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_c~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_c~output .bus_hold = "false";
+defparam \ssd_c~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X115_Y50_N2
+cycloneive_io_obuf \ssd_d~output (
+	.i(\ssd_d~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_d~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_d~output .bus_hold = "false";
+defparam \ssd_d~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X115_Y54_N16
+cycloneive_io_obuf \ssd_e~output (
+	.i(\ssd_e~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_e~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_e~output .bus_hold = "false";
+defparam \ssd_e~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X115_Y67_N16
+cycloneive_io_obuf \ssd_f~output (
+	.i(\ssd_f~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_f~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_f~output .bus_hold = "false";
+defparam \ssd_f~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X115_Y69_N2
+cycloneive_io_obuf \ssd_g~output (
+	.i(\ssd_g~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ssd_g~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ssd_g~output .bus_hold = "false";
+defparam \ssd_g~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y13_N8
+cycloneive_io_ibuf \bcd_A~input (
+	.i(bcd_A),
+	.ibar(gnd),
+	.o(\bcd_A~input_o ));
+// synopsys translate_off
+defparam \bcd_A~input .bus_hold = "false";
+defparam \bcd_A~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y15_N8
+cycloneive_io_ibuf \bcd_B~input (
+	.i(bcd_B),
+	.ibar(gnd),
+	.o(\bcd_B~input_o ));
+// synopsys translate_off
+defparam \bcd_B~input .bus_hold = "false";
+defparam \bcd_B~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y14_N1
+cycloneive_io_ibuf \bcd_C~input (
+	.i(bcd_C),
+	.ibar(gnd),
+	.o(\bcd_C~input_o ));
+// synopsys translate_off
+defparam \bcd_C~input .bus_hold = "false";
+defparam \bcd_C~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y17_N1
+cycloneive_io_ibuf \bcd_D~input (
+	.i(bcd_D),
+	.ibar(gnd),
+	.o(\bcd_D~input_o ));
+// synopsys translate_off
+defparam \bcd_D~input .bus_hold = "false";
+defparam \bcd_D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N0
+cycloneive_lcell_comb \ssd_a~0 (
+// Equation(s):
+// \ssd_a~0_combout  = (\bcd_C~input_o ) # ((\bcd_D~input_o  & ((\bcd_A~input_o ) # (\bcd_B~input_o ))) # (!\bcd_D~input_o  & ((!\bcd_B~input_o ))))
+
+	.dataa(\bcd_D~input_o ),
+	.datab(\bcd_A~input_o ),
+	.datac(\bcd_C~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_a~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_a~0 .lut_mask = 16'hFAFD;
+defparam \ssd_a~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N10
+cycloneive_lcell_comb \ssd_b~0 (
+// Equation(s):
+// \ssd_b~0_combout  = (\bcd_C~input_o  $ (!\bcd_D~input_o )) # (!\bcd_B~input_o )
+
+	.dataa(gnd),
+	.datab(\bcd_C~input_o ),
+	.datac(\bcd_D~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_b~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_b~0 .lut_mask = 16'hC3FF;
+defparam \ssd_b~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N4
+cycloneive_lcell_comb \ssd_c~0 (
+// Equation(s):
+// \ssd_c~0_combout  = (\bcd_C~input_o  & (!\bcd_D~input_o  & !\bcd_B~input_o ))
+
+	.dataa(gnd),
+	.datab(\bcd_C~input_o ),
+	.datac(\bcd_D~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_c~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_c~0 .lut_mask = 16'h000C;
+defparam \ssd_c~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N6
+cycloneive_lcell_comb \ssd_d~0 (
+// Equation(s):
+// \ssd_d~0_combout  = (\bcd_C~input_o  & (\bcd_D~input_o  & \bcd_B~input_o )) # (!\bcd_C~input_o  & (\bcd_D~input_o  $ (\bcd_B~input_o )))
+
+	.dataa(gnd),
+	.datab(\bcd_C~input_o ),
+	.datac(\bcd_D~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_d~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_d~0 .lut_mask = 16'hC330;
+defparam \ssd_d~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N8
+cycloneive_lcell_comb \ssd_e~0 (
+// Equation(s):
+// \ssd_e~0_combout  = (\bcd_D~input_o ) # ((!\bcd_C~input_o  & \bcd_B~input_o ))
+
+	.dataa(gnd),
+	.datab(\bcd_C~input_o ),
+	.datac(\bcd_D~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_e~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_e~0 .lut_mask = 16'hF3F0;
+defparam \ssd_e~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N18
+cycloneive_lcell_comb \ssd_f~0 (
+// Equation(s):
+// \ssd_f~0_combout  = (\bcd_D~input_o  & ((\bcd_C~input_o ) # ((!\bcd_A~input_o  & !\bcd_B~input_o )))) # (!\bcd_D~input_o  & (((\bcd_C~input_o  & !\bcd_B~input_o ))))
+
+	.dataa(\bcd_D~input_o ),
+	.datab(\bcd_A~input_o ),
+	.datac(\bcd_C~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_f~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_f~0 .lut_mask = 16'hA0F2;
+defparam \ssd_f~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X114_Y69_N20
+cycloneive_lcell_comb \ssd_g~0 (
+// Equation(s):
+// \ssd_g~0_combout  = (\bcd_C~input_o  & (\bcd_D~input_o  & ((\bcd_B~input_o )))) # (!\bcd_C~input_o  & (((!\bcd_A~input_o  & !\bcd_B~input_o ))))
+
+	.dataa(\bcd_D~input_o ),
+	.datab(\bcd_A~input_o ),
+	.datac(\bcd_C~input_o ),
+	.datad(\bcd_B~input_o ),
+	.cin(gnd),
+	.combout(\ssd_g~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \ssd_g~0 .lut_mask = 16'hA003;
+defparam \ssd_g~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign led_A = \led_A~output_o ;
+
+assign led_B = \led_B~output_o ;
+
+assign led_C = \led_C~output_o ;
+
+assign led_D = \led_D~output_o ;
+
+assign ssd_a = \ssd_a~output_o ;
+
+assign ssd_b = \ssd_b~output_o ;
+
+assign ssd_c = \ssd_c~output_o ;
+
+assign ssd_d = \ssd_d~output_o ;
+
+assign ssd_e = \ssd_e~output_o ;
+
+assign ssd_f = \ssd_f~output_o ;
+
+assign ssd_g = \ssd_g~output_o ;
+
+endmodule
+
+module hard_block (
+
+	devpor,
+	devclrn,
+	devoe);
+
+// Design Ports Information
+// ~ALTERA_ASDO_DATA1~	=>  Location: PIN_F4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_FLASH_nCE_nCSO~	=>  Location: PIN_E2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DCLK~	=>  Location: PIN_P3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DATA0~	=>  Location: PIN_N7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_nCEO~	=>  Location: PIN_P28,	 I/O Standard: 2.5 V,	 Current Strength: 8mA
+
+input 	devpor;
+input 	devclrn;
+input 	devoe;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+wire \~ALTERA_ASDO_DATA1~~padout ;
+wire \~ALTERA_FLASH_nCE_nCSO~~padout ;
+wire \~ALTERA_DATA0~~padout ;
+wire \~ALTERA_ASDO_DATA1~~ibuf_o ;
+wire \~ALTERA_FLASH_nCE_nCSO~~ibuf_o ;
+wire \~ALTERA_DATA0~~ibuf_o ;
+
+
+endmodule

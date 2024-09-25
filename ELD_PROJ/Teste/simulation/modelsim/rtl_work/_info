@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD_PROJ/Teste/simulation/modelsim
+Eteste
+Z1 w1708435000
+!i122 0
+R0
+Z2 8/home/roberto.se/ELD_PROJ/Teste/teste.vhd
+Z3 F/home/roberto.se/ELD_PROJ/Teste/teste.vhd
+l0
+L1 1
+VncJc8UjAK2O?ZTm`Y38Pg1
+!s100 ObfHe:B=@[dbEk?CK;Hch1
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1708435034
+!i10b 1
+Z6 !s108 1708435034.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD_PROJ/Teste/teste.vhd|
+!s107 /home/roberto.se/ELD_PROJ/Teste/teste.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Aifsc_v1
+DEx4 work 5 teste 0 22 ncJc8UjAK2O?ZTm`Y38Pg1
+!i122 0
+l8
+L7 6
+VoZN@MNPW4]L@2b?kfabGg2
+!s100 e94P6ofFJnChIF9bdRifN0
+R4
+31
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 /home/roberto.se/ELD_PROJ/Teste/teste.vhd|
+!i113 1
+R8
+R9

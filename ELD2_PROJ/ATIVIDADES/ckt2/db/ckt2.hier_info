@@ -1,0 +1,9 @@
+|ckt2
+a => x.IN0
+b => x.IN1
+b => x.IN1
+c => x.IN0
+d => x.IN1
+x << x.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,205 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_16_2/simulation/modelsim
+Eae2
+Z1 w1722605875
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_16_2/ae2.vhd
+Z5 F/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_16_2/ae2.vhd
+l0
+L4 1
+VdDbMB]WP9QG@hfH472HB>0
+!s100 Kc178h;A>R@Xi8ZYKm;:J1
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1722606558
+!i10b 1
+Z8 !s108 1722606558.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_16_2/ae2.vhd|
+Z10 !s107 /home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_16_2/ae2.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aifsc_v1
+R2
+R3
+DEx4 work 3 ae2 0 22 dDbMB]WP9QG@hfH472HB>0
+!i122 2
+l47
+L16 64
+Vn97R:Ceg?<Z^eHDBZ`4_g0
+!s100 lckBC1VQ>GzT[IPzeNSWm0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efifo_sync_ctrl4
+Z13 w1722604061
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 3
+R0
+Z15 8/home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd
+Z16 F/home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd
+l0
+L8 1
+Vk4YSWX4@Yo2_H:f:P2l:P0
+!s100 PdLEM[DOWAa8F>3UfJ=Da1
+R6
+31
+Z17 !s110 1722606562
+!i10b 1
+Z18 !s108 1722606562.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd|
+!s107 /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd|
+!i113 1
+R11
+R12
+Alookahead_lfsr_arch
+R14
+R2
+R3
+Z20 DEx4 work 15 fifo_sync_ctrl4 0 22 k4YSWX4@Yo2_H:f:P2l:P0
+!i122 3
+l148
+Z21 L139 75
+Z22 V766g1c7Ti3FXD8h60M8ii3
+Z23 !s100 2N67AT;Im5<j=HfATi]MS0
+R6
+31
+R17
+!i10b 1
+R18
+R19
+Z24 !s107 /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd|
+!i113 1
+R11
+R12
+Alookahead_bin_arch
+R14
+R2
+R3
+R20
+!i122 3
+l72
+Z25 L63 75
+Z26 VoezjG7a:Ve^TLJ2;S]Wd92
+Z27 !s100 :<jNSU^4YlM7lhc^g?AYM0
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R24
+!i113 1
+R11
+R12
+Aenlarged_bin_arch
+R14
+R2
+R3
+R20
+!i122 3
+l23
+Z28 L18 41
+Z29 V]J7SmCKT0nAEN=aV6mSdC2
+Z30 !s100 :^EomQlDcX`7Ac?Km]lXe3
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R24
+!i113 1
+R11
+R12
+Cfifo_sync_ctrl4_cfg
+efifo_sync_ctrl4
+alookahead_LFSR_arch
+DAx4 work 15 fifo_sync_ctrl4 19 lookahead_lfsr_arch 22 766g1c7Ti3FXD8h60M8ii3
+R14
+R2
+R3
+R20
+!i122 3
+R13
+R0
+R15
+R16
+l0
+L215 1
+VeJWUgYSS3?;=^HLYc@?In1
+!s100 M>DM1T;lW6Fnf?>:3SMz]0
+R6
+31
+R17
+!i10b 0
+R18
+R19
+R24
+!i113 1
+R11
+R12
+Ereg_file_para
+Z31 w1721395289
+R14
+R2
+R3
+!i122 1
+R0
+Z32 8/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_09/reg_file2/reg_file_para.vhd
+Z33 F/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_09/reg_file2/reg_file_para.vhd
+l0
+L9 1
+V44^P;LiGi=LMaZaWCcRMf2
+!s100 A:aAW=odVfZLP:U;BE5Oh2
+R6
+31
+R7
+!i10b 1
+R8
+Z34 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_09/reg_file2/reg_file_para.vhd|
+Z35 !s107 /home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2_restored/2024_07_09/reg_file2/reg_file_para.vhd|
+!i113 1
+R11
+R12
+Abeh_arch
+R14
+R2
+R3
+DEx4 work 13 reg_file_para 0 22 44^P;LiGi=LMaZaWCcRMf2
+!i122 1
+l30
+L25 26
+VQXE@]WRCcSR8j0B;XTUVA2
+!s100 HHh4Pj>OTWJcbP?T@kP7Q1
+R6
+31
+R7
+!i10b 1
+R8
+R34
+R35
+!i113 1
+R11
+R12

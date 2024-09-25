@@ -1,0 +1,9 @@
+entity dec_end_4 is
+	
+end entity;
+
+architecture ifsc_v1 of dec_end_4 is
+
+begin
+
+end architecture

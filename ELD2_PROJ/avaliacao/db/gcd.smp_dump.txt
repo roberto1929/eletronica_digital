@@ -1,0 +1,6 @@
+
+State Machine - |gcd|state_reg
+Name state_reg.sub state_reg.swap state_reg.idle 
+state_reg.idle 0 0 0 
+state_reg.swap 0 1 1 
+state_reg.sub 1 0 1 

@@ -1,0 +1,43 @@
+library ieee;
+use ieee.numeric_std.all ;
+use ieee.std_logic_1164.all;
+
+entity contador_bcd is
+    
+    port (
+
+        clock , reset  : std_logic;
+        dezena_bdc , unidade_bcd  : out std_logic_vector (3 downto 0)
+   
+    );
+end entity;
+
+architecture ifsc_v1 of contador_bcd is
+begin
+    process (clock,reset)
+         variable count_dezena_bdc : integer range 0 to 9 ;
+        variable count_unidade_bcd  : integer range  0 to 9 ;
+         
+    begin
+
+        if (reset = '1') then
+          --overflow 
+            count_unidade_bcd := 0;
+                count_dezena_bdc  := 0 ;
+        elsif (rising_edge(clock)) then
+              if count_unidade_bcd = 9 then   -- esse if fala que quando chegar em 5 retorna count = 0  
+                     count_unidade_bcd := 0 ;
+                    
+                if(count_dezena_bdc = 9) then
+                     count_dezena_bdc := 0 ;
+                     else
+                    count_dezena_bdc := count_dezena_bdc + 1 ;
+                     end if ;
+              else
+                    count_unidade_bcd := count_unidade_bcd + 1;
+                    end if ;
+               dezena_bdc <= std_logic_vector(to_unsigned(count_dezena_bdc,4));
+               unidade_bcd    <= std_logic_vector(to_unsigned(count_unidade_bcd,4));
+        end if;
+    end process;
+end architecture;

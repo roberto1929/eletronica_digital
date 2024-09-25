@@ -1,0 +1,19 @@
+|PWM_5bit
+CLK => counter[0].CLK
+CLK => counter[1].CLK
+CLK => counter[2].CLK
+CLK => counter[3].CLK
+CLK => counter[4].CLK
+RESET => counter[0].ACLR
+RESET => counter[1].ACLR
+RESET => counter[2].ACLR
+RESET => counter[3].ACLR
+RESET => counter[4].ACLR
+DUTY_CYCLE[0] => LessThan0.IN5
+DUTY_CYCLE[1] => LessThan0.IN4
+DUTY_CYCLE[2] => LessThan0.IN3
+DUTY_CYCLE[3] => LessThan0.IN2
+DUTY_CYCLE[4] => LessThan0.IN1
+PWM_OUT << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

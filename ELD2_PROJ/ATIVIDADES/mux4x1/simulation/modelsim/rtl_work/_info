@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/simulation/modelsim
+Ccfg_ifsc
+emux4x1
+av_WITH_SELECT
+DAx4 work 6 mux4x1 13 v_with_select 22 m?@ab07jP02<mbEQRbM[`0
+Z1 DEx4 work 6 mux4x1 0 22 fD[2DLZXDISGha;DLHM7z1
+!i122 0
+Z2 w1709235485
+R0
+Z3 8/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd
+Z4 F/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd
+l0
+L41 1
+VDW>TJb1cI:R_]Oc3Rbfjc1
+!s100 KomJMC:KZgJ1[BZFNHYlR1
+Z5 OV;C;2020.1;71
+31
+Z6 !s110 1709302486
+!i10b 0
+Z7 !s108 1709302486.000000
+Z8 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd|
+!s107 /home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd|
+!i113 1
+Z9 o-93 -work work
+Z10 tExplicit 1 CvgOpt 0
+Emux4x1
+R2
+!i122 0
+R0
+R3
+R4
+l0
+L1 1
+VfD[2DLZXDISGha;DLHM7z1
+!s100 m8Fahjm9QOI43>[jFK`jk1
+R5
+31
+R6
+!i10b 1
+R7
+R8
+Z11 !s107 /home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd|
+!i113 1
+R9
+R10
+Av_with_select
+R1
+!i122 0
+l31
+L29 10
+Vm?@ab07jP02<mbEQRbM[`0
+!s100 ;aCa:SMb:OT;;:Q^PPM[;2
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R11
+!i113 1
+R9
+R10
+Av_when_else
+R1
+!i122 0
+l21
+L20 7
+VD=1`EhgFUJ:OFzT@5Q]6Q0
+!s100 9T7`hMiNdhz`dI3;RAQA30
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R11
+!i113 1
+R9
+R10
+Av_logica_pura
+R1
+!i122 0
+l12
+L10 8
+V?WPDg2OMGT;nic;==OS_D3
+!s100 k:Mo1FGJ=OWD]:MXhNXP;2
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R11
+!i113 1
+R9
+R10

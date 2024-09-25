@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD2_PROJ/AULA 6/AR1.qarlog
+
+Archive:	/home/roberto.se/ELD2_PROJ/AULA 6/AR1.qar
+Date:		Thu Mar 14 16:58:42 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD2_PROJ/AULA 6/hamming_distance.qpf
+/home/roberto.se/ELD2_PROJ/AULA 6/hamming_distance.qsf
+/home/roberto.se/ELD2_PROJ/AULA 6/hamming_distance.vhd
+/home/roberto.se/ELD2_PROJ/AULA 6/sdc1.sdc
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Mar 21 13:55:44 2024
+Source archive file:	/home/roberto.se/ELD2_PROJ/AULA 6/AR1.qar
+Archive was extracted into	/home/roberto.se/ELD2_PROJ/AULA 6/AR1_restored/
+		 - successfully.

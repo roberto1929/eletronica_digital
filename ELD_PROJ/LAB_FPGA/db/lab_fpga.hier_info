@@ -1,0 +1,40 @@
+|lab_fpga
+bcd_A => led_A.DATAIN
+bcd_A => ssd_a.IN0
+bcd_B => ssd_a.IN0
+bcd_B => ssd_b.IN0
+bcd_B => led_B.DATAIN
+bcd_B => ssd_a.IN1
+bcd_B => ssd_c.IN0
+bcd_B => ssd_d.IN0
+bcd_C => ssd_b.IN1
+bcd_C => ssd_c.IN1
+bcd_C => ssd_f.IN0
+bcd_C => led_C.DATAIN
+bcd_C => ssd_a.IN1
+bcd_C => ssd_a.IN1
+bcd_C => ssd_d.IN1
+bcd_D => ssd_a.IN1
+bcd_D => ssd_b.IN1
+bcd_D => ssd_d.IN1
+bcd_D => ssd_d.IN1
+bcd_D => ssd_e.IN1
+bcd_D => ssd_f.IN1
+bcd_D => ssd_f.IN1
+bcd_D => led_D.DATAIN
+bcd_D => ssd_a.IN1
+bcd_D => ssd_b.IN1
+bcd_D => ssd_c.IN1
+led_A <= bcd_A.DB_MAX_OUTPUT_PORT_TYPE
+led_B <= bcd_B.DB_MAX_OUTPUT_PORT_TYPE
+led_C <= bcd_C.DB_MAX_OUTPUT_PORT_TYPE
+led_D <= bcd_D.DB_MAX_OUTPUT_PORT_TYPE
+ssd_a <= ssd_a.DB_MAX_OUTPUT_PORT_TYPE
+ssd_b <= ssd_b.DB_MAX_OUTPUT_PORT_TYPE
+ssd_c <= ssd_c.DB_MAX_OUTPUT_PORT_TYPE
+ssd_d <= ssd_d.DB_MAX_OUTPUT_PORT_TYPE
+ssd_e <= ssd_e.DB_MAX_OUTPUT_PORT_TYPE
+ssd_f <= ssd_f.DB_MAX_OUTPUT_PORT_TYPE
+ssd_g <= ssd_g.DB_MAX_OUTPUT_PORT_TYPE
+
+

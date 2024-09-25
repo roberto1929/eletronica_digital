@@ -1,0 +1,82 @@
+Restore Archived Project report for ae2
+Thu Aug  1 14:25:49 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Aug  1 14:25:49 2024 ;
+; Revision Name                   ; ae2                                   ;
+; Top-level Entity Name           ; ae2                                   ;
+; Family                          ; Cyclone IV E                          ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2.qar' into the 'ae2_restored/' directory
+Info: Generated report 'ae2.restore.rpt'
+Info (23030): Evaluation of Tcl script /opt/intelFPGA/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 585 megabytes
+    Info: Processing ended: Thu Aug  1 14:25:49 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
++----------------------------------------------------+
+; Files Not Restored                                 ;
++----------------------------------------------------+
+; File Name                                          ;
++----------------------------------------------------+
+; qar_info.json                                      ;
+; 2024_07_09/reg_file2/reg_file_para.vhd             ;
+; 2024_07_16/fifo_sync_ctrl4.vhd                     ;
+; 2024_07_16_2/ae2.qpf                               ;
+; 2024_07_16_2/ae2.qsf                               ;
+; 2024_07_16_2/ae2.vhd                               ;
+; 2024_07_16_2/simulation/modelsim/tb_fifo_4_lfsr.do ;
+; 2024_07_16_2/assignment_defaults.qdf               ;
++----------------------------------------------------+
+
+

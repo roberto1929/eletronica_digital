@@ -1,0 +1,37 @@
+library ieee;
+
+entity contador_BCD is
+    Port ( CLK : in STD_LOGIC;
+           RST : in STD_LOGIC;
+           OPA : out STD_LOGIC;
+           BCD_DU : out STD_LOGIC_VECTOR (3 downto 0);
+           BCD_C : out STD_LOGIC_VECTOR (3 downto 0));
+end entity;
+
+architecture ifsc_v1 of contador_BCD is
+    signal du, de : integer range 0 to 9 := 0;
+    signal max_du : integer range 0 to 59 := 59;
+begin
+    process (CLK, RST)
+    begin
+        if RST = '1' then
+            du <= 0;
+            de <= 0;
+            OPA <= '0';
+        elsif rising_edge(CLK) then
+            if du = max_du(3 downto 2) and de = max_du(1 downto 0) then
+                OPA <= '1'; -- Ativa saída adicional OPA
+            else
+                OPA <= '0';
+                du <= du + 1;
+                if du = 10 then
+                    du <= 0;
+                    de <= de + 1;
+                end if;
+            end if;
+        end if;
+    end process;
+    
+    BCD_DU <= std_logic_vector(to_unsigned(du, BCD_DU'length));
+    BCD_C <= std_logic_vector(to_unsigned(de, BCD_C'length));
+end architecture;

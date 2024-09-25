@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD_PROJ/nand_gate.qarlog
+
+Archive:	/home/roberto.se/ELD_PROJ/nand_gate.qar
+Date:		Tue Oct  3 11:11:16 2023
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD_PROJ/nand_gate.qpf
+/home/roberto.se/ELD_PROJ/nand_gate.qsf
+/home/roberto.se/ELD_PROJ/nand_gate.vhd
+/home/roberto.se/ELD_PROJ/simulation/modelsim/tb_nand_v1.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Oct 10 10:48:07 2023
+Source archive file:	/home/roberto.se/ELD_PROJ/AULA_18/nand_gate.qar
+Archive was extracted into	/home/roberto.se/ELD_PROJ/AULA_18/nand_gate_restored/
+		 - successfully.

@@ -1,0 +1,31 @@
+|contador_bcd
+clock => min_du_reached~reg0.CLK
+clock => count_unidade_bcd[0].CLK
+clock => count_unidade_bcd[1].CLK
+clock => count_unidade_bcd[2].CLK
+clock => count_unidade_bcd[3].CLK
+clock => count_dezena_bcd[0].CLK
+clock => count_dezena_bcd[1].CLK
+clock => count_dezena_bcd[2].CLK
+clock => count_dezena_bcd[3].CLK
+reset => min_du_reached~reg0.ACLR
+reset => count_unidade_bcd[0].PRESET
+reset => count_unidade_bcd[1].ACLR
+reset => count_unidade_bcd[2].ACLR
+reset => count_unidade_bcd[3].PRESET
+reset => count_dezena_bcd[0].PRESET
+reset => count_dezena_bcd[1].ACLR
+reset => count_dezena_bcd[2].PRESET
+reset => count_dezena_bcd[3].ACLR
+dezena_bdc[0] << <GND>
+dezena_bdc[1] << <GND>
+dezena_bdc[2] << <GND>
+dezena_bdc[3] << <GND>
+unidade_bcd[0] << count_unidade_bcd[0].DB_MAX_OUTPUT_PORT_TYPE
+unidade_bcd[1] << count_unidade_bcd[1].DB_MAX_OUTPUT_PORT_TYPE
+unidade_bcd[2] << count_unidade_bcd[2].DB_MAX_OUTPUT_PORT_TYPE
+unidade_bcd[3] << count_unidade_bcd[3].DB_MAX_OUTPUT_PORT_TYPE
+max_du_reached << <GND>
+min_du_reached << min_du_reached~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD_PROJ/AULA_19/simulation/modelsim
+Eexercicio_yz
+Z1 w1696946876
+!i122 0
+R0
+Z2 8/home/roberto.se/ELD_PROJ/AULA_19/exercicio_yz.vhd
+Z3 F/home/roberto.se/ELD_PROJ/AULA_19/exercicio_yz.vhd
+l0
+L4 1
+VKlG3nY4kRClQF1:N0_4nP0
+!s100 gl>;CFV@I[UDD=k:6gh7T2
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1696947736
+!i10b 1
+Z6 !s108 1696947736.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD_PROJ/AULA_19/exercicio_yz.vhd|
+!s107 /home/roberto.se/ELD_PROJ/AULA_19/exercicio_yz.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Anome_arch
+DEx4 work 12 exercicio_yz 0 22 KlG3nY4kRClQF1:N0_4nP0
+!i122 0
+l9
+L8 5
+Vn3<e`<fBN<M^ebMK]e2NL3
+!s100 Sk88T1[[mADVPT3Kc2=9T2
+R4
+31
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 /home/roberto.se/ELD_PROJ/AULA_19/exercicio_yz.vhd|
+!i113 1
+R8
+R9

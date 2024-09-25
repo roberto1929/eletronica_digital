@@ -1,0 +1,24 @@
+entity leading_zeros is
+	generic (N : natural := 8);
+	port
+		(	________ : in std_logic_vector(0 to N-1);
+			count	: out integer range 0 to N
+		);
+end entity;
+
+architecture ____ of leading_zeros is
+
+begin
+	process (data)
+	variable count : integer ____ 0 to N
+	begin
+		count := 0;
+		for i ___ data'range ____
+			case data(i) is
+				when '0' => count := count + 1;
+				when _____ => exit;
+			end  ___
+		end ____
+		zeros <= count;
+	end process;
+end _______;

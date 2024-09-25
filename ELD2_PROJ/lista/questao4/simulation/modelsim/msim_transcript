@@ -1,0 +1,103 @@
+# do contador_basico_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/roberto.se/ELD2_PROJ/lista/questao4/contador_basico.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:35:50 on Jul 29,2024
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD2_PROJ/lista/questao4/contador_basico.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_basico
+# -- Compiling architecture ifsc_v1 of contador_basico
+# End time: 16:35:50 on Jul 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.contador_basico(ifsc_v1)
+# vsim work.contador_basico(ifsc_v1) 
+# Start time: 16:35:57 on Jul 29,2024
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-27-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.contador_basico(ifsc_v1)
+add wave -position end  sim:/contador_basico/clk
+add wave -position end  sim:/contador_basico/reset
+add wave -position end  sim:/contador_basico/q
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: roberto.se  Hostname: TELE-Matlab-Quartus  ProcessID: 11403
+#           Attempting to use alternate WLF file "./wlftUgiYUh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftUgiYUh
+force -freeze sim:/contador_basico/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/contador_basico/reset 1 0
+force -freeze sim:/contador_basico/reset 1 0, 0 20
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/roberto.se/ELD2_PROJ/lista/questao4/simulation/modelsim/wave.do
+run 200
+run 1000
+do tb_contador_basico.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:42:31 on Jul 29,2024
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD2_PROJ/lista/questao4/contador_basico.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_basico
+# -- Compiling architecture ifsc_v1 of contador_basico
+# End time: 16:42:31 on Jul 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:42:32 on Jul 29,2024, Elapsed time: 0:06:35
+# Errors: 0, Warnings: 2
+# vsim work.contador_basico(ifsc_v1) 
+# Start time: 16:42:32 on Jul 29,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.contador_basico(ifsc_v1)
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: roberto.se  Hostname: TELE-Matlab-Quartus  ProcessID: 11403
+#           Attempting to use alternate WLF file "./wlftdUPQM2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdUPQM2
+# End time: 16:42:48 on Jul 29,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2

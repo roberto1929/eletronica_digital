@@ -1,0 +1,11 @@
+entity ifsc_v1 is
+ port( 
+	a,b : in bit;
+	x : out bit
+ ) end entity;
+ 
+ architecture ifsc_v1 of teste is 
+ begin 
+ x <= (a and b) or (a and b);
+ 
+ end architecture;

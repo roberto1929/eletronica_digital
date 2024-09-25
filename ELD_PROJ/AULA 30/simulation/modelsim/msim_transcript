@@ -1,0 +1,88 @@
+# do dec_end_4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/roberto.se/ELD_PROJ/AULA 30/dec_end_4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:40:51 on Nov 14,2023
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD_PROJ/AULA 30/dec_end_4.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity dec_end_4
+# -- Compiling architecture ifsc_v1 of dec_end_4
+# End time: 10:40:51 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.dec_end_4(ifsc_v1)
+# vsim work.dec_end_4(ifsc_v1) 
+# Start time: 10:41:25 on Nov 14,2023
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-25-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading work.dec_end_4(ifsc_v1)
+add wave -position end  sim:/dec_end_4/a
+add wave -position end  sim:/dec_end_4/cs
+force -freeze sim:/dec_end_4/cs 0001 0
+run
+run
+force -freeze sim:/dec_end_4/a 01 0
+force -freeze sim:/dec_end_4/cs 0010 0
+run
+force -freeze sim:/dec_end_4/a 10 0
+force -freeze sim:/dec_end_4/a 10 0
+force -freeze sim:/dec_end_4/cs 0100 0
+run
+force -freeze sim:/dec_end_4/a 11 0
+force -freeze sim:/dec_end_4/cs 1000 0
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {/home/roberto.se/ELD_PROJ/AULA 30/simulation/modelsim/wave.do}
+# Ctrl+G  ==>  Goto
+# Ctrl+H  ==>  Replace
+# Ctrl+U  ==>  Delete Line
+# Ctrl+W  ==>  Add Selection To Wave
+do tb_dec4.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:02:59 on Nov 14,2023
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD_PROJ/AULA 30/dec_end_4.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity dec_end_4
+# -- Compiling architecture ifsc_v1 of dec_end_4
+# End time: 11:02:59 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:03:00 on Nov 14,2023, Elapsed time: 0:21:35
+# Errors: 0, Warnings: 0
+# vsim work.dec_end_4(ifsc_v1) 
+# Start time: 11:03:00 on Nov 14,2023
+# Loading std.standard
+# Loading work.dec_end_4(ifsc_v1)
+# End time: 11:03:01 on Nov 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.dec_end_4(ifsc_v1) 
+# Start time: 11:03:01 on Nov 14,2023
+# Loading std.standard
+# Loading work.dec_end_4(ifsc_v1)
+# End time: 11:17:26 on Nov 14,2023, Elapsed time: 0:14:25
+# Errors: 0, Warnings: 0

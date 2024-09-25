@@ -1,0 +1,167 @@
+# do ae2_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:31:53 on Jul 19,2024
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo_sync_ctrl4
+# -- Compiling architecture enlarged_bin_arch of fifo_sync_ctrl4
+# -- Compiling architecture lookahead_bin_arch of fifo_sync_ctrl4
+# -- Loading entity fifo_sync_ctrl4
+# -- Compiling architecture lookahead_LFSR_arch of fifo_sync_ctrl4
+# -- Loading entity fifo_sync_ctrl4
+# ** Warning: /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd(154): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd(155): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# -- Compiling configuration fifo_sync_ctrl4_cfg
+# -- Loading entity fifo_sync_ctrl4
+# -- Loading architecture lookahead_LFSR_arch of fifo_sync_ctrl4
+# End time: 10:31:54 on Jul 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {/home/roberto.se/ELD2_PROJ/2024_07_09/reg_file2/reg_file_para.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:31:54 on Jul 19,2024
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD2_PROJ/2024_07_09/reg_file2/reg_file_para.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_file_para
+# -- Compiling architecture beh_arch of reg_file_para
+# End time: 10:31:54 on Jul 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:31:54 on Jul 19,2024
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD2_PROJ/2024_07_16_2/ae2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ae2
+# -- Compiling architecture ifsc_v1 of ae2
+# End time: 10:31:54 on Jul 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.ae2(ifsc_v1)
+# vsim work.ae2(ifsc_v1) 
+# Start time: 10:32:13 on Jul 19,2024
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-27-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ae2(ifsc_v1)
+# Loading ieee.numeric_std(body)
+# Loading work.fifo_sync_ctrl4(lookahead_lfsr_arch)
+# Loading work.reg_file_para(beh_arch)
+add wave -position end  sim:/ae2/clk_fifo
+add wave -position end  sim:/ae2/reset_fifo
+add wave -position end  sim:/ae2/wr_fifo
+add wave -position end  sim:/ae2/rd_fifo
+add wave -position end  sim:/ae2/full_fifo
+add wave -position end  sim:/ae2/empty_fifo
+add wave -position end  sim:/ae2/data_in_fifo
+add wave -position end  sim:/ae2/data_out_fifo
+force -freeze sim:/ae2/clk_fifo 1 0, 0 {50 ps} -r 100
+force -freeze sim:/ae2/reset_fifo 1 0
+force -freeze sim:/ae2/reset_fifo 1 0, 0 20
+add wave -position end  sim:/ae2/w_addr_fifo
+add wave -position end  sim:/ae2/r_addr_fifo
+add wave -position end  sim:/ae2/w_en_sgn
+add wave -position 9  sim:/ae2/fifo_reg/array_reg
+force -freeze sim:/ae2/wr_fifo 0 0
+force -freeze sim:/ae2/rd_fifo 0 0
+force -freeze sim:/ae2/data_in_fifo 10#1001 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ae2/fifo_reg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /ae2/fifo_reg
+run
+force -freeze sim:/ae2/wr_fifo 1 0
+run
+run
+force -freeze sim:/ae2/data_in_fifo 10#1003 0
+run
+run
+force -freeze sim:/ae2/wr_fifo 0 0
+run
+run
+force -freeze sim:/ae2/rd_fifo 1 0
+run
+run
+run
+run
+run 500
+force -freeze sim:/ae2/wr_fifo 1 0
+run 500
+run 500
+run 500
+run 500
+do tb_fifo_4_lfsr.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:00:59 on Jul 19,2024
+# vcom -reportprogress 300 -93 -work work /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo_sync_ctrl4
+# -- Compiling architecture enlarged_bin_arch of fifo_sync_ctrl4
+# -- Compiling architecture lookahead_bin_arch of fifo_sync_ctrl4
+# -- Loading entity fifo_sync_ctrl4
+# -- Compiling architecture lookahead_LFSR_arch of fifo_sync_ctrl4
+# -- Loading entity fifo_sync_ctrl4
+# ** Warning: /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd(154): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/roberto.se/ELD2_PROJ/2024_07_16/fifo_sync_ctrl4.vhd(155): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# -- Compiling configuration fifo_sync_ctrl4_cfg
+# -- Loading entity fifo_sync_ctrl4
+# -- Loading architecture lookahead_LFSR_arch of fifo_sync_ctrl4
+# End time: 11:00:59 on Jul 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 11:00:59 on Jul 19,2024, Elapsed time: 0:28:46
+# Errors: 0, Warnings: 2
+# vsim work.ae2(ifsc_v1) 
+# Start time: 11:00:59 on Jul 19,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ae2(ifsc_v1)
+# Loading ieee.numeric_std(body)
+# Loading work.fifo_sync_ctrl4(lookahead_lfsr_arch)
+# Loading work.reg_file_para(beh_arch)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ae2/fifo_reg
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /ae2/fifo_reg
+# End time: 11:24:45 on Jul 19,2024, Elapsed time: 0:23:46
+# Errors: 0, Warnings: 2

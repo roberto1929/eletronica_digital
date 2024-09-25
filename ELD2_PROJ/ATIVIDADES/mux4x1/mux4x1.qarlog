@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.qarlog
+
+Archive:	/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.qar
+Date:		Thu Feb 29 16:38:06 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.qpf
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.qsf
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/mux4x1.vhd
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/simulation/modelsim/tb_mux4x1_v1.do
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/simulation/modelsim/tb_mux4x1_v2.do
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/simulation/modelsim/tb_mux4x1_v3.do
+/home/roberto.se/ELD2_PROJ/ATIVIDADES/mux4x1/simulation/modelsim/wave.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

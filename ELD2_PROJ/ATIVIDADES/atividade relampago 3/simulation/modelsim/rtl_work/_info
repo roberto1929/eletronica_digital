@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/roberto.se/ELD2_PROJ/ATIVIDADES/atividade relampago 3/simulation/modelsim
+Ccfg_ifsc
+econtador_bcd
+aifsc_v3
+DAx4 work 12 contador_bcd 7 ifsc_v3 22 ]6Rik[6_:oafl8@Ac0aLL1
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DEx4 work 12 contador_bcd 0 22 BFP4eSTCc83`[ElI_jR>O2
+!i122 0
+Z5 w1713448361
+R0
+Z6 8/home/roberto.se/ELD2_PROJ/ATIVIDADES/atividade relampago 3/contador_bcd.vhd
+Z7 F/home/roberto.se/ELD2_PROJ/ATIVIDADES/atividade relampago 3/contador_bcd.vhd
+l0
+L111 1
+VcZ``ni42m0U;^AUjggA`O1
+!s100 Cm`TfUVh3F<R04>3MBdbk0
+Z8 OV;C;2020.1;71
+31
+Z9 !s110 1713448477
+!i10b 0
+Z10 !s108 1713448477.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/roberto.se/ELD2_PROJ/ATIVIDADES/atividade relampago 3/contador_bcd.vhd|
+!s107 /home/roberto.se/ELD2_PROJ/ATIVIDADES/atividade relampago 3/contador_bcd.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Econtador_bcd
+R5
+R1
+R2
+R3
+!i122 0
+R0
+R6
+R7
+l0
+L5 1
+VBFP4eSTCc83`[ElI_jR>O2
+!s100 Y2^mzzcAodD1zzSIVJ_:`0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 /home/roberto.se/ELD2_PROJ/ATIVIDADES/atividade relampago 3/contador_bcd.vhd|
+!i113 1
+R12
+R13
+Aifsc_v3
+R1
+R2
+R3
+R4
+!i122 0
+l87
+L83 26
+V]6Rik[6_:oafl8@Ac0aLL1
+!s100 ZX98XFUG5TRT80HfC^=mM3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13
+Aifsc_v2
+R1
+R2
+R3
+R4
+!i122 0
+l47
+L43 37
+Vm0mPMkBJGmmI7HHBmE3R@0
+!s100 38W]^;VoF=LBC@L@]@hdQ3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13
+Aifsc_v1
+R1
+R2
+R3
+R4
+!i122 0
+l19
+L16 26
+VF^oaGg9MS2]J51DieMHNn1
+!s100 <aYjho]GCA_F;<6h^Q][T2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13

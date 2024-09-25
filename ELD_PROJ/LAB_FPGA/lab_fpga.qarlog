@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD_PROJ/LAB_FPGA/lab_fpga.qarlog
+
+Archive:	/home/roberto.se/ELD_PROJ/LAB_FPGA/lab_fpga.qar
+Date:		Wed Nov  1 16:23:32 2023
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD_PROJ/AULA_25/mux4x1.vhd
+/home/roberto.se/ELD_PROJ/LAB_FPGA/lab_fpga.qpf
+/home/roberto.se/ELD_PROJ/LAB_FPGA/lab_fpga.qsf
+/home/roberto.se/ELD_PROJ/LAB_FPGA/lab_fpga.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

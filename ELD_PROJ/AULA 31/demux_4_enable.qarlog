@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	/home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.qarlog
+
+Archive:	/home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.qar
+Date:		Tue Nov 21 10:21:57 2023
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/roberto.se/ELD_PROJ/AULA 31/demux_4_enable.vhd
+/home/roberto.se/ELD_PROJ/AULA 31/demux_4_v1.qpf
+/home/roberto.se/ELD_PROJ/AULA 31/demux_4_v1.qsf
+/home/roberto.se/ELD_PROJ/AULA 31/demux_4_v1.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "unidade_bcd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade_bcd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "min_du_reached",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
